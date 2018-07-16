@@ -4,11 +4,14 @@ li{
 	float: right;
 }
 
-.navi {
+.navi{
 	background-color: black;
+	color: white;
 	padding:40px 5px;
 	font-weight: bold;
-   
+	position: sticky;
+	top: 0px;
+	z-index: 99999;
 }
 body{
 	background-color: #FFFAFA;
@@ -65,14 +68,12 @@ img{
 	font-family: 'Quicksand', sans-serif;
 
 }
-.cntr{
+.cntr, .middle{
 	text-align: center;
 	margin: 100px;
-}
-.middle{
-	text-align: center;
 
 }
+
 a{
 	color: white;
 }
@@ -101,4 +102,59 @@ a{
 	height: 250px;
 	width: 250px;
 	float: right;
+}
+.sadaf }
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+}
+.clor:hover{
+	color: red;
+}
+div a {
+	color: black;
+	
+}
+#details{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 200px;	
+}
+.card-img-top{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+
+}
+.row{
+	font-family: 'Dosis', sans-serif;
+		text-align: center;
+}
+.my-4a{
+	padding: none;
+	text-align: center;
+	color: black;
+	background-color:#f77562de;
+	font-size: 50px;
+}
+.card-text{
+	color: #FA6E59;
+}
+.btn-block{
+	background-color: #f77562de;
+	border: none;
+}
+.btn-block:hover{
+
+	color: black;
+	background-color: #f77562de !important;
+}
+small{
+	font-size: 30px;
+
+}
+.py-5 {
+	background-color:#FA6E59 !important; 
+	padding-top:20px !important;
+	padding-bottom: 20px !important;
+	margin-bottom: 20px;
 }
